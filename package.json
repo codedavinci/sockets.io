@@ -1,0 +1,26 @@
+{
+  "name": "socket.io",
+  "version": "1.0.0",
+  "description": "Create a websocket server using socket.io and express",
+  "main": "sio-server.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codedavinci/sockets.io.git"
+  },
+  "keywords": [
+    "davinci",
+    "socket",
+    "io"
+  ],
+  "author": "Eddie Henrique",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codedavinci/sockets.io/issues"
+  },
+  "homepage": "https://github.com/codedavinci/sockets.io#readme"
+}
