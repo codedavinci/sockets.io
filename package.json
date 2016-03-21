@@ -1,10 +1,8 @@
 {
-  "name": "socket.io",
+  "name": "socket-io",
   "version": "1.0.0",
-  "description": "Create a websocket server using socket.io and express",
+  "description": "Creating Websockets using the modules sockets.io and express",
   "main": "sio-server.js",
-  "dependencies": {},
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +11,7 @@
     "url": "git+https://github.com/codedavinci/sockets.io.git"
   },
   "keywords": [
-    "davinci",
+    "websockets",
     "socket",
     "io"
   ],
@@ -22,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/codedavinci/sockets.io/issues"
   },
-  "homepage": "https://github.com/codedavinci/sockets.io#readme"
+  "homepage": "https://github.com/codedavinci/sockets.io#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "install": "^0.6.1",
+    "socket.io": "^1.4.5",
+    "socket.io-client": "^1.4.5"
+  }
 }
